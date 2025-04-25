@@ -14,14 +14,14 @@ export const Social = () => {
     // }
 
     return (
-        <div className="gap-x-2 flex items-center w-full">
+        <div className="gap-x-2 flex items-center w-full bg-amber-200">
             <Button
                 variant='outline'
                 size='lg'
                 className="w-full"
             // onClick={() => onClick('google')}
             >
-                <FcGoogle className="h-5 w-5" />
+                <FcGoogle className="h-4 w-4" />
             </Button>
 
             <Button
